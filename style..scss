@@ -1,0 +1,53 @@
+// Define SCSS variables for commonly used values
+$primary-font-size: 1.25rem;
+$secondary-font-size: 1.5rem;
+
+// Custom Styles for Sony Refrigerator Landing Page
+// Add custom styles to the header
+header {
+    text-align: center;
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: $primary-font-size;
+    }
+}
+
+// Style the navigation bar
+.navbar {
+    border-bottom: 1px solid #ccc;
+
+    .navbar-brand {
+        font-size: $secondary-font-size;
+        font-weight: bold;
+    }
+
+    .navbar-nav .nav-item {
+        margin-right: 15px;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: $primary-font-size;
+    }
+}
+
+// Add additional custom styles for your content here
+
+// Example: Style a product feature section
+.product-feature {
+    background-color: #f9f9f9;
+    padding: 30px 0;
+
+    h2 {
+        font-size: 2rem;
+        color: #333;
+    }
+
+    p {
+        font-size: $primary-font-size;
+        color: #666;
+    }
+}
